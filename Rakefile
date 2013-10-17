@@ -1,4 +1,4 @@
-desc "Ejecutar rps en el servidor thin (puerto 8000)"
+desc "Ejecutar rps en el servidor thin (puerto 9292)"
 task :default do
   sh "rackup"
 end
